@@ -1,6 +1,8 @@
 package net
 
-import "net/http"
+import (
+	"net/http"
+)
 
 type ResponseWrap struct {
 	Writer http.ResponseWriter
@@ -34,7 +36,7 @@ func(r*ResponseWrap)WriteHeader(code int){
 
 func (r*ResponseWrap)Write(b[]byte){
 	if !r.Committed{
-		r.WriteHeader(200)
+		r.WriteHeader(http.StatusOK)
 	}
 }
 

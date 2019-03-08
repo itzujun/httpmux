@@ -5,6 +5,8 @@ import (
 	"net/http"
 )
 
+
+
 const (
 	CONNECT = http.MethodConnect
 	DELETE  = http.MethodDelete
@@ -135,6 +137,5 @@ const defaultMemory = 32 << 20 // 32 MB
 
 const XMLHttpRequest = "XMLHttpRequest"
 
-const (
-	OK = http.StatusOK // 十分常用
-)
+
+

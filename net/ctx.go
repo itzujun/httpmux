@@ -67,9 +67,10 @@ type Ctx interface {
 	Error(error)
 	Redirect(int, string) error
 
-	Twig() *Twig
-
-	Logger() Logger
+	//todo
+	//Twig() *Twig
+	//
+	//Logger() Logger
 
 
 }
