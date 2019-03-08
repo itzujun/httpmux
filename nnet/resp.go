@@ -1,4 +1,4 @@
-package net
+package nnet
 
 import (
 	"net/http"

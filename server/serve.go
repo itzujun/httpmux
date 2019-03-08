@@ -22,6 +22,6 @@ type lzServer struct {
 
 func hello(){
 
-	NewHttpError()
+
 
 }
